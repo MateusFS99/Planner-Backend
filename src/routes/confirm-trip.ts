@@ -34,7 +34,7 @@ export async function confirmTrip(app: FastifyInstance) {
 
       if (!trip) throw new Error("Trip nor found");
       if (trip.is_confirmed)
-        return reply.redirect(`http://localhost:3000/trips/${tripId}`);
+        return reply.redirect(`${env.WEB_BASE_URL}/trips/${tripId}`);
 
       await prisma.trip.update({
         where: { id: tripId },
@@ -53,7 +53,7 @@ export async function confirmTrip(app: FastifyInstance) {
           const message = await mail.sendMail({
             from: {
               name: "Equipe plann.er",
-              address: "oi@plann.er",
+              address: "suporte@plann.er.com",
             },
             to: participant.email,
             subject: `Confirme sua presença na viagem para ${trip.destination} em ${formattedStartDate}`,
