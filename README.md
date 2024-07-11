@@ -4,11 +4,27 @@
 
 This is the backend of the Planner application, developed with Node.js and Fastify, using Prisma for ORM and SQLite as the database.
 
-## Introduction
+## About 🎯
 
 The Planner-Backend is responsible for managing user data, tasks, and events, providing a RESTful API for the Planner application frontend.
 
-## Technologies
+## Features 📝
+
+The application must be able to
+
+- [✔] Register a new trip;
+- [✔] View detailed trip data;
+- [✔] Update the trip;
+- [✔] Confirm the trip;
+- [✔] Confirm the participant on the trip;
+- [✔] Create links;
+- [✔] Create activities;
+- [✔] View activities;
+- [✔] Create a participant invitation;
+- [✔] View the participants;
+- [✔] View a specific participant;
+
+## Technologies 💻
 
 - [Node](https://nodejs.org)
 - [Fastify](https://fastify.dev)
@@ -17,7 +33,7 @@ The Planner-Backend is responsible for managing user data, tasks, and events, pr
 - [Nodemailer](https://nodemailer.com)
 - [Typescript](https://www.typescriptlang.org)
 
-## Installation
+## Installation 🛠
 
 Follow the steps below to set up and run the project locally.
 
@@ -45,6 +61,6 @@ Follow the steps below to set up and run the project locally.
    npm run dev
    ```
 
-## :memo: LICENSE
+## LICENSE ®️
 
 This project is under the MIT license. Consult the [LICENSE](LICENSE) for details.
