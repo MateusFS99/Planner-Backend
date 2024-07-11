@@ -2,19 +2,7 @@
   <img alt="plann.er logo" title="#NLW-Journey-Logo" src=".github/logo.svg" width="250px" />
 </h1>
 
-# Planner-Backend
-
 This is the backend of the Planner application, developed with Node.js and Fastify, using Prisma for ORM and SQLite as the database.
-
-## Contents
-
-- [Introduction](#introduction)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contribution](#contribution)
-- [License](#license)
 
 ## Introduction
 
@@ -47,7 +35,7 @@ Follow the steps below to set up and run the project locally.
    ```bash
    npm install
    ```
-4. Create a .env file at the root of the project and configure the environment variables as specified in the .env example file.
+4. Create a .env file at the root of the project and configure the environment variables as specified in the .env.example file.
 5. Run the Prisma migrations:
    ```bash
    npx prisma migrate dev
@@ -56,23 +44,6 @@ Follow the steps below to set up and run the project locally.
    ```bash
    npm run dev
    ```
-
-## Project Structure
-
-The project structure is organized as follows:
-
-Planner-Backend/
-├── prisma/
-│ └── schema.prisma # Database definitions
-├── src/
-│ ├── errors/ # error handling
-│ ├── lib/ # library configuration
-│ ├── routes/ # Route definitions
-│ └── server.ts # Application entry point
-├── .env # Environment variables
-├── package.json # npm configurations and scripts
-├── tsconfig.json # TypeScript configurations
-└── README.md # Project documentation
 
 ## :memo: LICENSE
 
