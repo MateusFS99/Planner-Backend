@@ -6,7 +6,7 @@ This is the backend of the Planner application, developed with Node.js and Fasti
 
 ## About 🎯
 
-The Planner-Backend is responsible for managing user data, tasks, and events, providing a RESTful API for the Planner application frontend.
+The planner-api is responsible for managing user data, tasks, and events, providing a RESTful API for the Planner application frontend.
 
 ## Features 📝
 
@@ -41,11 +41,11 @@ Follow the steps below to set up and run the project locally.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MateusFS99/Planner-Backend.git
+   git clone https://github.com/MateusFS99/planner-api.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Planner-Backend
+   cd planner-api
    ```
 3. Install the dependencies:
    ```bash
