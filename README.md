@@ -6,7 +6,7 @@ This is the backend of the Planner application, developed with Node.js and Fasti
 
 ## About 🎯
 
-The planner-api is responsible for managing user trips, activities, links and participants, providing a RESTful API for the Planner application frontend.
+The planner-api provides a RESTful API that serves as the backend for the Planner application's frontend.
 
 ## Technologies 💻
 
