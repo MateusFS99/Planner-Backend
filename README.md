@@ -6,32 +6,16 @@ This is the backend of the Planner application, developed with Node.js and Fasti
 
 ## About 🎯
 
-The planner-api is responsible for managing user data, tasks, and events, providing a RESTful API for the Planner application frontend.
-
-## Features 📝
-
-The application must be able to
-
-- [✔] Register a new trip;
-- [✔] View detailed trip data;
-- [✔] Update the trip;
-- [✔] Confirm the trip;
-- [✔] Confirm the participant on the trip;
-- [✔] Create links;
-- [✔] Create activities;
-- [✔] View activities;
-- [✔] Create a participant invitation;
-- [✔] View the participants;
-- [✔] View a specific participant;
+The planner-api is responsible for managing user trips, activities, links and participants, providing a RESTful API for the Planner application frontend.
 
 ## Technologies 💻
 
 - [Node](https://nodejs.org)
+- [Typescript](https://www.typescriptlang.org)
 - [Fastify](https://fastify.dev)
 - [Zod](https://zod.dev)
 - [Prisma](https://www.prisma.io)
 - [Nodemailer](https://nodemailer.com)
-- [Typescript](https://www.typescriptlang.org)
 
 ## Installation 🛠
 
@@ -61,6 +45,6 @@ Follow the steps below to set up and run the project locally.
    npm run dev
    ```
 
-## LICENSE ®️
+## License ®️
 
 This project is under the MIT license. Consult the [LICENSE](LICENSE) for details.
